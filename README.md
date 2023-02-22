@@ -31,7 +31,7 @@ flow structures:
 
 ## Part 1: `loop_until`
 
-In `src/main/scala/internal/LoopUntil.scala`, implement a control-flow structure called
+In `loop_until/src/main/scala/LoopUntil.scala`, implement a control-flow structure called
 `loop_until` that can be used like so:
 
 ```
@@ -52,11 +52,11 @@ In the case of the example above, the body of the `loop_until` structure should
 execute 10 times and print the numbers `0`, `2`, `4`, `6`, `8` (with each number
 appearing on a separate line).
 
-You can test your program in your IDE, or from sbt with `sbt run`.
+You can test your program from sbt with `run for_loop/main`.
 
 ## Part 2: `for_loop`
 
-In `src/main/scala/internal/ForLoop.scala`, implement a control-flow structure called
+In `for_loop/src/main/scala/ForLoop.scala`, implement a control-flow structure called
 `for_loop` that can be used like so:
 
 ```
@@ -82,7 +82,7 @@ the for loop, then (re-)initialize it as part of the for loop.
 
 ## Part 3: `while_c` and `continue`
 
-In `src/main/scala/internal/LoopUntil.scala`, implement control-flow structures called
+In `while_c/src/main/scala/while_c.scala`, implement control-flow structures called
 `while_c` and `continue` that can be used like so:
 
 ```
@@ -113,12 +113,9 @@ In the example above, the body of the `while_c` structure should
 execute 10 times and print the numbers `0`, `2`, `4`, `6`, `8` (with each number
 appearing on a separate line).
 
-Put your implementation in the file
-`/src/main/scala/internal/WhileContinue.scala`.
-
 ## Part 4: `repeat` … `until`
 
-In `src/main/scala/internal/RepeatUntil.scala`, implement a control-flow structure called `repeat` … `until` that can be used
+In `repeat_until/src/main/scala/RepeatUntil.scala`, implement a control-flow structure called `repeat` … `until` that can be used
 like so:
 
 ```

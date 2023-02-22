@@ -10,6 +10,7 @@ ThisBuild / scalacOptions ++= Seq(
 ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % Test
 ThisBuild / libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.15.4" % Test
 
-lazy val dfa = project
-lazy val regex = project
-lazy val conversion = project.dependsOn(dfa, regex)
+lazy val loop_until = project
+lazy val for_loop = project
+lazy val while_c = project
+lazy val repeat_until = project
