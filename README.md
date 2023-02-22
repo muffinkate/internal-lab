@@ -52,7 +52,7 @@ In the case of the example above, the body of the `loop_until` structure should
 execute 10 times and print the numbers `0`, `2`, `4`, `6`, `8` (with each number
 appearing on a separate line).
 
-You can test your program from sbt with `run for_loop/main`.
+You can test your program from sbt with `run loop_until/main`.
 
 ## Part 2: `for_loop`
 
