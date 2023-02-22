@@ -1,9 +1,7 @@
-package internal
-
-// define the new control-flow structure here
-
 @main
 def main() =
+  // define the new control-flow structure here
+
   var i = 0
 
   loop_until(i > 9) {
@@ -11,3 +9,5 @@ def main() =
       println(i)
     i += 1
   }
+
+end main
