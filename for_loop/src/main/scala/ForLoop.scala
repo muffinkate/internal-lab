@@ -1,6 +1,12 @@
 @main
 def main =
-  // define the new control-flow structure here
+  def for_loop(start: Unit)(end: =>Boolean)(inc: =>Unit)(body: =>Unit): Unit = {
+    if !end then {
+      body
+      inc
+      for_loop(start)(end)(inc){body}
+    }
+  }
 
   var i = 0;
 
